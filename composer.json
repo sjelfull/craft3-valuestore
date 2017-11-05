@@ -1,0 +1,51 @@
+{
+    "name": "superbig/craft3-valuestore",
+    "description": "Easily store some loose values into files",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "valuestore"
+    ],
+    "support": {
+        "docs": "https://github.com/sjelfull/craft3-valuestore/blob/master/README.md",
+        "issues": "https://github.com/sjelfull/craft3-valuestore/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Superbig",
+            "homepage": "https://superbig.co"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "~3.0.0-beta.23",
+        "spatie/valuestore": "~1.2.1"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "superbig\\valuestore\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Valuestore",
+        "handle": "valuestore",
+        "schemaVersion": "1.0.0",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/sjelfull/craft3-valuestore/master/CHANGELOG.md",
+        "components": {
+            "valuestoreService": "superbig\\valuestore\\services\\ValuestoreService"
+        },
+        "class": "superbig\\valuestore\\Valuestore"
+    }
+}
