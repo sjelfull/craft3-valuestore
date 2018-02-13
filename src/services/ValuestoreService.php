@@ -13,7 +13,6 @@ namespace superbig\valuestore\services;
 use Craft;
 use craft\base\Component;
 use Spatie\Valuestore\Valuestore;
-use superbig\valuestore\models\ValuestoreModel;
 use craft\helpers\FileHelper;
 
 /**
