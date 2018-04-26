@@ -25,7 +25,7 @@ To install the plugin, follow these instructions.
 ## Using Valuestore
 
 ```twig
-{% store = craft.valuestore.create('storeName.json') %}
+{% set store = craft.valuestore.create('storeName.json') %}
 
 {% do store.put('key', 'value') %}
 
